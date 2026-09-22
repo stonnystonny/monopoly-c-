@@ -18,6 +18,14 @@ public class MonopolyGame : MonoBehaviour
     private const int CasinoPrize = 1000;
     private const int HotelLevel = 5;
     private const int MaxLogLines = 8;
+    private const float BoardMargin = 0.02f;
+    private const float TileGap = 0f;
+    private const float BaseTileSize = 0.125f;
+    private const float CornerSizeMultiplier = 1.5f;
+    private const int GridSlots = 7;
+    private const int GridEdgeSlots = GridSlots - 2;
+    private const float TileBorderThickness = 2f;
+    private static readonly Color TileBorderColor = new Color(0.05f, 0.07f, 0.09f, 0.9f);
 
     private readonly string[] squareNames = {
         "СТАРТ", "Парк", "Проспект", "ШАНС", "Вокзал", "Набережная",
@@ -75,6 +83,11 @@ public class MonopolyGame : MonoBehaviour
     private readonly List<Vector2> boardCells = new List<Vector2>();
     private readonly List<string> logLines = new List<string>();
     private readonly string[] playerHex = new string[2];
+    private readonly float[] gridSlotStart = new float[GridSlots];
+    private readonly float[] gridSlotSize = new float[GridSlots];
+    private Sprite tileBorderSprite;
+    private float centerAreaMin;
+    private float centerAreaMax;
     private RectTransform boardRect;
 
     private Text turnText;
@@ -155,7 +168,7 @@ public class MonopolyGame : MonoBehaviour
 
     private void BuildCenterMenu(Transform board)
     {
-        var menu = CreatePanel(board, "CenterMenu", new Color(0.07f, 0.10f, 0.16f), new Vector2(0.20f, 0.20f), new Vector2(0.80f, 0.80f));
+        var menu = CreatePanel(board, "CenterMenu", new Color(0.07f, 0.10f, 0.16f), new Vector2(centerAreaMin, centerAreaMin), new Vector2(centerAreaMax, centerAreaMax));
         CreateText(menu.transform, "ЦЕНТР ГОРОДА", 14, neutralColor, new Vector2(0.04f, 0.945f), new Vector2(0.96f, 1f), Vector2.zero, FontStyle.Bold);
         playerOneText = CreateText(menu.transform, "", 15, playerColors[0], new Vector2(0.03f, 0.875f), new Vector2(0.49f, 0.94f), Vector2.zero, FontStyle.Bold);
         playerTwoText = CreateText(menu.transform, "", 15, playerColors[1], new Vector2(0.51f, 0.875f), new Vector2(0.97f, 0.94f), Vector2.zero, FontStyle.Bold);
@@ -184,19 +197,46 @@ public class MonopolyGame : MonoBehaviour
         endTurnButton.gameObject.SetActive(false);
     }
 
+    private void ComputeGridMetrics()
+    {
+        // Keep the total tile footprint (sum of sizes, excluding gaps) equal to the
+        // original uniform grid (7 * BaseTileSize), but split it so the 2 corner
+        // slots are CornerSizeMultiplier times larger than the 5 edge slots.
+        float totalTileSpan = GridSlots * BaseTileSize;
+        float edgeSize = totalTileSpan / (2f * CornerSizeMultiplier + GridEdgeSlots);
+        float cornerSize = edgeSize * CornerSizeMultiplier;
+
+        gridSlotSize[0] = cornerSize;
+        gridSlotSize[GridSlots - 1] = cornerSize;
+        for (int i = 1; i < GridSlots - 1; i++) gridSlotSize[i] = edgeSize;
+
+        gridSlotStart[0] = BoardMargin;
+        for (int i = 1; i < GridSlots; i++)
+            gridSlotStart[i] = gridSlotStart[i - 1] + gridSlotSize[i - 1] + TileGap;
+    }
+
     private void BuildBoard(Transform parent)
     {
+        ComputeGridMetrics();
         boardCells.Clear();
         for (int x = 0; x < 7; x++) boardCells.Add(new Vector2(x, 6));
         for (int y = 5; y >= 0; y--) boardCells.Add(new Vector2(6, y));
         for (int x = 5; x >= 0; x--) boardCells.Add(new Vector2(x, 0));
         for (int y = 1; y <= 5; y++) boardCells.Add(new Vector2(0, y));
-        CreatePanel(parent, "Center", new Color(0.17f, 0.25f, 0.25f), new Vector2(0.16f, 0.16f), new Vector2(0.84f, 0.84f));
+        float centerMin = gridSlotStart[1];
+        float centerMax = gridSlotStart[GridSlots - 2] + gridSlotSize[GridSlots - 2];
+        centerAreaMin = centerMin;
+        centerAreaMax = centerMax;
+        CreatePanel(parent, "Center", new Color(0.17f, 0.25f, 0.25f), new Vector2(centerMin, centerMin), new Vector2(centerMax, centerMax));
         for (int i = 0; i < BoardSize; i++)
         {
-            float x = 0.02f + boardCells[i].x * 0.14f;
-            float y = 0.02f + boardCells[i].y * 0.14f;
-            var tile = CreatePanel(parent, "Tile" + i, TileColor(i), new Vector2(x, y), new Vector2(x + 0.125f, y + 0.125f));
+            int gx = (int)boardCells[i].x;
+            int gy = (int)boardCells[i].y;
+            float x = gridSlotStart[gx];
+            float y = gridSlotStart[gy];
+            float x1 = x + gridSlotSize[gx];
+            float y1 = y + gridSlotSize[gy];
+            var tile = CreatePanel(parent, "Tile" + i, TileColor(i), new Vector2(x, y), new Vector2(x1, y1));
             tileImages.Add(tile.GetComponent<Image>());
             tileRects.Add(tile.rectTransform);
 
@@ -213,7 +253,35 @@ public class MonopolyGame : MonoBehaviour
             var priceLabel = CreateText(tile.transform, TilePriceCaption(i), 10, neutralColor, new Vector2(0.04f, 0.02f), new Vector2(0.96f, 0.26f), Vector2.zero, FontStyle.Bold);
             priceLabel.alignment = TextAnchor.LowerCenter;
             tilePriceLabels.Add(priceLabel);
+
+            var border = CreatePanel(tile.transform, "Border", Color.white, Vector2.zero, Vector2.one);
+            border.raycastTarget = false;
+            border.sprite = GetTileBorderSprite();
+            border.type = Image.Type.Sliced;
         }
+    }
+
+    private Sprite GetTileBorderSprite()
+    {
+        if (tileBorderSprite != null) return tileBorderSprite;
+        int thickness = Mathf.Max(1, Mathf.RoundToInt(TileBorderThickness));
+        int size = thickness * 2 + 1;
+        var texture = new Texture2D(size, size, TextureFormat.RGBA32, false);
+        texture.filterMode = FilterMode.Point;
+        texture.wrapMode = TextureWrapMode.Clamp;
+        var clear = new Color(0f, 0f, 0f, 0f);
+        for (int x = 0; x < size; x++)
+        {
+            for (int y = 0; y < size; y++)
+            {
+                bool isBorderPixel = x < thickness || x >= size - thickness || y < thickness || y >= size - thickness;
+                texture.SetPixel(x, y, isBorderPixel ? TileBorderColor : clear);
+            }
+        }
+        texture.Apply();
+        tileBorderSprite = Sprite.Create(texture, new Rect(0f, 0f, size, size), new Vector2(0.5f, 0.5f), 100f, 0,
+            SpriteMeshType.FullRect, new Vector4(thickness, thickness, thickness, thickness));
+        return tileBorderSprite;
     }
 
     private string TilePriceCaption(int index)

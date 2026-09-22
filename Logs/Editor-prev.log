@@ -1,0 +1,460 @@
+Unity Editor version:    6000.6.1f1 (7efac9f6c10e)
+Branch:                  6000.6/staging
+Build type:              Release
+Batch mode:              NO
+macOS version:           Version 26.6 (Build 25G72)
+Darwin version:          25.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Date:                    2026-09-19T19:29:31Z
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 957)
+VBCSCompiler prewarm took 1.60 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-base" at "2026-09-19T19:29:31.521688Z"
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/MacOS/Unity
+-projectpath
+/Users/base/monopoly-c-
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-base
+-hubSessionId
+26af2b88-666e-4fb1-97f4-9ef38b332c89
+-accessToken
+xi5BEZQEnWX9H7N1kz2LKLTpK5cZdfBXW_dZFqx7esQ009f
+Successfully changed project path to: /Users/base/monopoly-c-
+/Users/base/monopoly-c-
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [8389632384]  Target information:
+
+Player connection [8389632384]  * "[IP] 192.168.31.225 [Port] 55504 [Flags] 2 [Guid] 3419534413 [EditorId] 3419534413 [Version] 1048832 [Id] OSXEditor(0,Mac) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8389632384] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8389632384] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              e1c9427789fe41508caf554dad12ee0e
+  Correlation Id:          8d848cf7a5dbe5d55e820a7f08a4e3fc
+  External correlation Id: 5714789802467313469
+  Machine Id:              sBJ4X7kN7pQP36tegMFRT7ImO9M=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-base" (connect: 0.00s, validation: 0.00s, handshake: 0.22s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-base-notifications" at "2026-09-19T19:29:31.74009Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token xi5BEZQEnW...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 10171651314976-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.22s
+[Package Manager] Connected to IPC stream "Upm-956" after 0.0 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: caaa1bbe55e92b882e0c1685d7ed7cb9
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052672
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - /Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Helpers/Unity.DataStore 
+Unity Data Store artifact dir = Library/DataStore, working dir = /Users/base/monopoly-c-[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Initialize engine version: 6000.6.1f1 (7efac9f6c10e)
+[EntityIdStore] init: VM path (explicit commit), pageSize=16384, blockCount=262144, entitiesPerBlock=1024, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/base/monopoly-c-/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+ preferred device: Apple M5 (high power)
+Metal devices available: 1
+0: Apple M5 (high power)
+Using device Apple M5 (high power)
+Initializing Metal device caps: Apple M5
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = '/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.6.1f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.6.1f1/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001263 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.541 seconds
+Domain Reload Profiling: 812ms
+	BeginReloadAssembly (63ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (62ms)
+		TypeCache.Refresh (117ms)
+			TypeCache.ScanAssembly (107ms)
+		AnalyzeDomain (0ms)
+	FinalizeReload (541ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (42ms)
+			ProcessInitializeOnLoadMethodAttributes (351ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 30 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@2.13.6 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.ide.vscode@1.2.5 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.ide.vscode@82e68656b7bd)
+  Built-in packages:
+    com.unity.multiplayer.center@2.0.1 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.multiplayer.center@549886182930)
+    com.unity.test-framework@1.8.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.test-framework@7a3849e09bd0)
+    com.unity.timeline@6.6.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.timeline@c56d56b0070b)
+    com.unity.ugui@2.6.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.ugui@fa62679cc16a)
+    com.unity.modules.accessibility@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.animation)
+    com.unity.modules.audio@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.physics2d@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.physicscore2d)
+    com.unity.modules.tetgen@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.tetgen)
+    com.unity.modules.timelinefoundation@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.ui)
+    com.unity.modules.vectorgraphics@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.vectorgraphics)
+    com.unity.modules.uielements@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.uielements)
+    com.unity.modules.imageconversion@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.jsonserialize)
+    com.unity.modules.subsystems@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.subsystems)
+    com.unity.modules.physics@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.physics)
+    com.unity.modules.director@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.director)
+    com.unity.modules.particlesystem@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.particlesystem)
+    com.unity.ext.nunit@2.1.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.ext.nunit@0198eae3b53e)
+    com.unity.modules.hierarchycore@1.0.0 (location: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.hierarchycore)
+[Package Manager] com.unity.ide.vscode is deprecated: Visual Studio Code package is not supported anymore. You can continue to use it, but we won't provide any update anymore.
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.00 seconds
+Starting: /Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Users/base/monopoly-c-
+ExitCode: 0 Duration: 0s111ms
+[307/359    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.10 seconds), 1 items updated, 359 evaluated
+AssetDatabase: script compilation time: 0.489670s
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.274 seconds
+Domain Reload Profiling: 631ms
+	BeginReloadAssembly (185ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (121ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (90ms)
+		TypeCache.Refresh (35ms)
+			TypeCache.ScanAssembly (30ms)
+		AnalyzeDomain (7ms)
+			BuildScriptInfoCaches (6ms)
+	FinalizeReload (275ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (106ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Starting new worker id: 0 with log in /Users/base/monopoly-c-/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=569550d0fb7fb4671b671da82963ca1c): Total: 1.351 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=472 ms
+		Asset DB Callback time: managed=11 ms, native=3 ms
+		Scripting: domain reloads=1, domain reload time=365 ms, compile time=491 ms, other=6 ms
+		Project Asset Count: scripts=487, non-scripts=754
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 4.301ms
+	ApplyChangesToAssetFolders: 0.102ms
+	Scan: 135.135ms
+	Collect global state as custom dependencies: 5.810ms
+	CategorizeScriptCompilationAssets: 10.089ms
+	ProcessAssetsWithTransientArtifactChanges: 9.830ms
+	CategorizeAssets: 5.616ms
+	CompileScripts: 490.861ms
+	ImportOutOfDateAssets: 278.121ms (276.968ms without children)
+		UnloadImportedAssets: 0.104ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.100ms
+		ImportSchedulerStart: 0.948ms
+	PostProcessAllAssets: 11.681ms
+		MonoPostProcessAllAssets: 11.660ms
+			SyncVS.PostprocessSyncProject 4.367ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.028ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.338ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.288ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.100ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.073ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.053ms
+	UnloadStreamsBegin: 0.637ms
+	GenerateScriptTypeHashes: 0.415ms
+	GenerateScriptTypeSerializationHashes: 0.837ms
+	Untracked: 398.223ms
+
+Application.AssetDatabase Initial Refresh End
+Launching external process: /Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Scanning for USB devices : 0.017ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-monopoly
+2026-09-19 22:29:34.447 Unity[956:9514] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0xba7c24be0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Main.unity'
+	Deserialize:            1.135 ms
+	Integration:            3.702 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   4.845 ms
+Unloading 2199 unused Assets / (0.7 MB). Loaded Objects now: 2935.
+Memory consumption went from 169.7 MB to 169.0 MB.
+Total: 3.664500 ms (FindLiveObjects: 0.136625 ms CreateObjectMapping: 0.030541 ms MarkObjects: 3.101959 ms  DeleteObjects: 0.321875 ms)
+
+[LAYOUT] About to load UserSettings/Layouts/default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout /Users/base/monopoly-c-/UserSettings/Layouts/default-6000.dwlt
+[LAYOUT] About to save layout /Users/base/Library/Preferences/Unity/Editor-5.x/Layouts/current/default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+[Project] Loading completed in 3.342 seconds
+	Project init time: 				2.816 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.041 seconds
+		Asset Database init time: 		0.168 seconds
+		Global illumination init time: 	0.001 seconds
+		Assemblies load time: 			0.831 seconds
+		Unity extensions init time: 	0.005 seconds
+		Asset Database refresh time: 	1.352 seconds
+	Scene opening time: 			0.427 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1789846174853,"processId":956,"projectLoad":3.341713125,"projectInit":2.815937083,"templateInit":0.0,"packageManagerInit":0.041465291,"assetDatabaseInit":0.168485708,"globalIlluminationInit":0.000786875,"assembliesLoad":0.83113875,"unityExtensionsInit":0.004996375,"assetDatabaseRefresh":1.351580375,"sceneOpening":0.427094375}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1789846174853,"processId":956,"editorVersion":"6000.6.1f1 (7efac9f6c10e)","branch":"6000.6/staging","buildType":"Release","platform":"OSX"}
+Subscribe to USB device events
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Worker ready: AssetImportWorkerHW0 0
+Created GICache directory at /Users/base/Library/Caches/com.unity3d.UnityEditor/GiCache. Took: 0.004s, timestamps: [3.351 - 3.355]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "xi5BEZQE"... (expires: 2026-09-19T21:29:11Z)
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x41d707000 may have been prematurely finalized
+<CFData 0xba7b145f0 [0x1f578d3c8]>{length = 6, capacity = 6, bytes = 0x7cd1adb8a66a}
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.509 seconds
+Domain Reload Profiling: 817ms
+	BeginReloadAssembly (230ms)
+		DisableScriptedObjects (24ms)
+		CreateAndSetChildDomain (156ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (53ms)
+		LoadAssemblies (30ms)
+		TypeCache.Refresh (3ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (509ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (83ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+		AwakeInstancesAfterBackupRestoration (225ms)
+No restricted APIs configured; Validation skipped.
+Checking 9 assemblies for restricted APIs found 0 usage(s) in 1 ms
+
+Asset Pipeline Refresh (id=6d49ec5531deb47d7a3ff33466543780): Total: 0.970 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=559 ms
+		Asset DB Callback time: managed=73 ms, native=21 ms
+		Scripting: domain reloads=1, domain reload time=315 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=487, non-scripts=754
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 0.405ms
+	Collect global state as custom dependencies: 0.157ms
+	ProcessAssetsWithTransientArtifactChanges: 22.077ms
+	CategorizeAssets: 4.054ms
+	CompileScripts: 0.786ms
+	ImportOutOfDateAssets: 511.031ms (510.385ms without children)
+		UnloadImportedAssets: 0.444ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.089ms
+		ImportSchedulerStart: 0.110ms
+	PostProcessAllAssets: 93.227ms
+		PostprocessAssetsUpdateCachedIcon 2.485ms
+		PostProcessCallbackCreateDeferredMaterials 2.216ms
+		AssemblyValidation.PostprocessAllAssets 1.891ms
+		ShaderAssetModifiedCallback 1.373ms
+		RaytracingShaderImportPostprocess 1.147ms
+		ComputeShaderImportPostprocess 1.124ms
+		SpeedTreeImporter.PostprocessAllAssets 1.023ms
+		BlockShaderImporter.PostprocessAllAssets 0.528ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 0.522ms
+		MonoPostProcessAllAssets: 72.752ms
+			SyncVS.PostprocessSyncProject 51.844ms
+			AssetPostprocessor.OnPostprocessAllAssets 3.928ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 3.012ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 2.670ms
+			AssetChangedListener.OnPostprocessAllAssets 2.393ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.850ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.591ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.519ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.196ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.133ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.117ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.112ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.107ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.096ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.094ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.084ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.075ms
+			AssetEvents.OnPostprocessAllAssets 0.070ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.050ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.050ms
+	PostAssetChangesProfiler: 1.900ms
+	UnloadStreamsBegin: 0.405ms
+	GenerateScriptTypeHashes: 0.239ms
+	GenerateScriptTypeSerializationHashes: 0.508ms
+	Untracked: 331.886ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.223 ms
+	Integration:            15.106 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.006 ms
+	Total Operation Time:   15.335 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=f73742b8105aa4f908fb1f520b32d688): Total: 0.033 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+MonoPathRemapper: Attempts to remap: 17472; Successful remaps: 6424
+Thread 0x41d4d7000 may have been prematurely finalized
+Serialized file version minimum: 22, current 23
+[LAYOUT] About to save layout /Users/base/monopoly-c-/UserSettings/Layouts/default-6000.dwlt
+[LAYOUT] About to save layout /Users/base/Library/Preferences/Unity/Editor-5.x/Layouts/current/default-6000.dwlt
+Thread 0x402c07000 may have been prematurely finalized
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+Завершается работа Сервер MSBuild...
+Завершается работа Сервер компилятора VB или C#...
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-base-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-base channel disconnected successfully.
+Thread 0x1745df000 may have been prematurely finalized
+Thread 0x17466b000 may have been prematurely finalized
+Thread 0x1746f7000 may have been prematurely finalized
+Thread 0x174ad7000 may have been prematurely finalized
+Thread 0x174783000 may have been prematurely finalized
+Thread 0x175043000 may have been prematurely finalized
+Thread 0x17480f000 may have been prematurely finalized
+Thread 0x17530b000 may have been prematurely finalized
+Thread 0x174b63000 may have been prematurely finalized
+Работа Сервер компилятора VB или C# завершена.
+Работа Сервер MSBuild завершена.
+Shut down UDS service system complete
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 107
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1789846361869,"processId":956,"allocatedMemory":8039605,"memoryLabels":[{"Default":184429},{"Permanent":15672},{"Thread":1056272},{"Manager":25590},{"VertexData":8},{"Geometry":408},{"Texture":24},{"Shader":844246},{"Material":68},{"GfxDevice":42920},{"GfxThread":2240},{"Animation":968},{"Audio":1800},{"FreeType":8},{"FontEngine":736},{"Physics":2002},{"Physics2D":16},{"Serialization":16464},{"Input":43216},{"JobScheduler":448},{"TextLib":16875},{"Mono":56},{"ScriptingNativeRuntime":155024},{"BaseObject":50136},{"Resource":1028},{"Renderer":2448},{"Transform":4693},{"File":7569},{"WebCam":32},{"Culling":32},{"Terrain":11346},{"Wind":24},{"String":440316},{"StaticString":3808},{"Utility":2692032},{"PoolAlloc":1960},{"AI":80},{"TypeTree":17293},{"ScriptManager":18960},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7240},{"Director":8288},{"CloudService":7872},{"WebRequest":9079},{"VR":49426},{"SceneManager":616},{"Video":2112},{"LazyScriptCache":32},{"Camera":142897},{"Secure":9865},{"SerializationCache":9704},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57504},{"StaticSafetyDebugInfo":278528},{"Baselib":16},{"Analytics":568},{"Hierarchy":1492},{"UIElements":40},{"CoreStats":14536},{"Identifiers":7152},{"Gui":280534},{"EditorUtility":76534},{"VersionControl":8},{"Undo":939},{"AssetDatabase":1340175},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":37042},{"Upm":1788},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"HubClient":848},{"LocalIPC":203},{"ProfilerEditor":9738},{"CoreBusinessMetrics":3205},{"Windowing":416},{"Licensing":992},{"AssetReference":32},{"IPCStream":7003}]}

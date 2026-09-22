@@ -1,0 +1,45 @@
+[2026-09-22T16:16:29.837Z][INFO] Command-line: /Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Helpers/PackageManager/Server/UnityPackageManager server -s 1945 --ipc-path /tmp/Unity-Upm-1945.sock -l 2 --log-file /Users/base/monopoly-c-/Logs/upm.log
+[2026-09-22T16:16:29.843Z][INFO] IPC server started (IPC path=/tmp/Unity-Upm-1945.sock).
+[2026-09-22T16:16:29.843Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-1945.
+[2026-09-22T16:16:30.606Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-22T16:16:30.687Z][INFO] project:list-packages --> 200 (81 ms)
+[2026-09-22T16:16:30.995Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-22T16:16:30.999Z][INFO] config:project:get-registries --> 200 (4 ms)
+[2026-09-22T16:16:31.007Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-22T16:16:31.061Z][INFO] project:list-packages --> 200 (54 ms)
+[2026-09-22T16:16:32.266Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-22T16:16:32.278Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-22T16:16:32.318Z][INFO] project:list-packages --> 200 (52 ms)
+[2026-09-22T16:16:32.323Z][INFO] project:list-packages --> 200 (45 ms)
+[2026-09-22T16:16:32.344Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-22T16:16:32.367Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-22T16:16:32.373Z][INFO] project:list-packages --> 200 (29 ms)
+[2026-09-22T16:16:32.373Z][INFO] config:project:get-registries --> 200 (6 ms)
+[2026-09-22T16:16:33.080Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-22T16:16:33.117Z][INFO] project:list-packages --> 200 (37 ms)
+[2026-09-22T16:16:34.773Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-22T16:16:35.346Z][INFO] Downloading package [com.unity.package-manager.metadata-6000.6@0.0.84] from registry 'https://packages.unity.com'
+[2026-09-22T16:16:36.254Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-22T16:16:36.266Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-22T16:16:36.291Z][INFO] project:list-packages --> 200 (25 ms)
+[2026-09-22T16:16:36.321Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-22T16:16:36.344Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-22T16:16:36.348Z][INFO] project:list-packages --> 200 (27 ms)
+[2026-09-22T16:16:36.348Z][INFO] config:project:get-registries --> 200 (4 ms)
+[2026-09-22T16:16:38.734Z][INFO] Finished downloading package [com.unity.package-manager.metadata-6000.6@0.0.84] from registry 'https://packages.unity.com' (size: 11.5 kB, time: 3.3s)
+[2026-09-22T16:16:39.270Z][INFO] project:list-packages --> 200 (3016 ms)
+[2026-09-22T16:16:39.271Z][INFO] project:list-packages --> 200 (4498 ms)
+[2026-09-22T16:17:29.298Z][INFO] Received shutdown request (SIGTERM), shutting down Unity Package Manager
