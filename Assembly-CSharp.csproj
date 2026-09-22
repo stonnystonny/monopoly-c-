@@ -43,6 +43,7 @@
     <UnityVersion>6000.6.1f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Analyzer Include="/Users/base/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.3.1/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
@@ -51,9 +52,27 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/BuildPipeline/Unity.Analyzers.LongLiving/Unity.Analyzers.LongLiving.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/analyzers/dotnet/roslyn4.0/cs/Microsoft.Extensions.Logging.Generators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll" />
+=======
+    <Analyzer Include="/Users/stonny/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.3.1/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.39f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
+    <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.39f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
+>>>>>>> 7c1efbd (fix 3d map and refactor)
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/Core/GameLog.cs" />
+    <Compile Include="Assets/Scripts/Board/BoardCamera.cs" />
+    <Compile Include="Assets/Scripts/Board/BoardView.cs" />
+    <Compile Include="Assets/Scripts/Core/BoardData.cs" />
+    <Compile Include="Assets/Scripts/Core/Palette.cs" />
+    <Compile Include="Assets/Scripts/Board/SceneEnvironment.cs" />
+    <Compile Include="Assets/Scripts/Board/Primitives.cs" />
+    <Compile Include="Assets/Scripts/Board/BoardLayout.cs" />
+    <Compile Include="Assets/Scripts/UI/GameHud.cs" />
+    <Compile Include="Assets/Scripts/Core/GameRules.cs" />
+    <Compile Include="Assets/Scripts/Core/ChanceDeck.cs" />
+    <Compile Include="Assets/Scripts/Core/GameState.cs" />
     <Compile Include="Assets/Scripts/MonopolyGame.cs" />
+    <Compile Include="Assets/Scripts/UI/UiFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
