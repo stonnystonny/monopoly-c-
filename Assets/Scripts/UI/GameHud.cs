@@ -49,8 +49,10 @@ namespace Monopoly.UI
 
         private void BuildMenu(RectTransform boardCenter, Actions actions)
         {
+            // Нижняя полоса середины доски отдана под лоток с кубиками.
             var menu = UiFactory.Panel(boardCenter, "CenterMenu", Palette.HudPanel,
-                new Vector2(0.04f, 0.04f), new Vector2(0.96f, 0.96f));
+                new Vector2(0.04f, Monopoly.Board.BoardLayout.DiceTrayHeight + 0.02f),
+                new Vector2(0.96f, 0.97f));
 
             UiFactory.Label(menu.transform, "ЦЕНТР ГОРОДА", 36, Palette.Neutral,
                 new Vector2(0.04f, 0.945f), new Vector2(0.96f, 1f), FontStyle.Bold);

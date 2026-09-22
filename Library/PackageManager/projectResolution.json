@@ -1,18 +1,18 @@
 {
   "context": {
-    "projectPath": "/Users/base/monopoly-c-/Packages",
+    "projectPath": "/Users/stonny/Desktop/monopoly/Packages",
     "unityVersion": "6000.6.1f1"
   },
   "inputs": [
-    "/Users/base/monopoly-c-/Packages/manifest.json",
-    "/Users/base/monopoly-c-/Packages/packages-lock.json",
+    "/Users/stonny/Desktop/monopoly/Packages/manifest.json",
+    "/Users/stonny/Desktop/monopoly/Packages/packages-lock.json",
     "/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.collab-proxy@2.13.6": {
       "name": "com.unity.collab-proxy",
       "displayName": "Unity Version Control",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4",
       "fingerprint": "4628d2ba6ea45aaa16a8b78239d0f6f9c2176982",
       "editorCompatibility": "6000.0.0a1",
       "version": "2.13.6",
@@ -22,7 +22,7 @@
     "com.unity.ide.rider@3.0.38": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.ide.rider@1f60b3138684",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.ide.rider@1f60b3138684",
       "fingerprint": "1f60b3138684c97af67aa8d911b1632ba916d29d",
       "editorCompatibility": "2021.3.0a1",
       "version": "3.0.38",
@@ -32,7 +32,7 @@
     "com.unity.ide.visualstudio@2.0.26": {
       "name": "com.unity.ide.visualstudio",
       "displayName": "Visual Studio Editor",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f",
       "fingerprint": "a99d56dec63ffb3a911a5a9bce9b77ba862a601c",
       "editorCompatibility": "2021.3.0a1",
       "version": "2.0.26",
@@ -42,7 +42,7 @@
     "com.unity.ide.vscode@1.2.5": {
       "name": "com.unity.ide.vscode",
       "displayName": "Visual Studio Code Editor",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.ide.vscode@82e68656b7bd",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.ide.vscode@82e68656b7bd",
       "fingerprint": "82e68656b7bdc5da8beb1fbaf1bb4ecf13456d51",
       "editorCompatibility": "2019.2.0a12",
       "version": "1.2.5",
@@ -52,7 +52,7 @@
     "com.unity.multiplayer.center@2.0.1": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.multiplayer.center@549886182930",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.multiplayer.center@549886182930",
       "fingerprint": "549886182930d71268e669c8cad270abe436405f",
       "version": "2.0.1",
       "source": "builtin",
@@ -61,7 +61,7 @@
     "com.unity.test-framework@1.8.0": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.test-framework@7a3849e09bd0",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.test-framework@7a3849e09bd0",
       "fingerprint": "7a3849e09bd0f747cadfc719c0ea32fa9f539b2f",
       "version": "1.8.0",
       "source": "builtin",
@@ -70,7 +70,7 @@
     "com.unity.timeline@6.6.0": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.timeline@c56d56b0070b",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.timeline@c56d56b0070b",
       "fingerprint": "c56d56b0070b3948146a9d1838d72ac8f3fb10c6",
       "version": "6.6.0",
       "source": "builtin",
@@ -79,7 +79,7 @@
     "com.unity.ugui@2.6.0": {
       "name": "com.unity.ugui",
       "displayName": "uGUI",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.ugui@fa62679cc16a",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.ugui@fa62679cc16a",
       "fingerprint": "fa62679cc16a2012cc7fcfd222861eb4e03f3d7a",
       "version": "2.6.0",
       "source": "builtin",
@@ -88,7 +88,7 @@
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.accessibility",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.accessibility",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -96,7 +96,7 @@
     "com.unity.modules.adaptiveperformance@1.0.0": {
       "name": "com.unity.modules.adaptiveperformance",
       "displayName": "Adaptive Performance",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.adaptiveperformance",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.adaptiveperformance",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -104,7 +104,7 @@
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
       "displayName": "AI",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.ai",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.ai",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -112,7 +112,7 @@
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
       "displayName": "Android JNI",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.androidjni",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.androidjni",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -120,7 +120,7 @@
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
       "displayName": "Animation",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.animation",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.animation",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -128,7 +128,7 @@
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
       "displayName": "Audio",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.audio",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.audio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -136,7 +136,7 @@
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
       "displayName": "Physics 2D",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.physics2d",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.physics2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -144,7 +144,7 @@
     "com.unity.modules.physicscore2d@1.0.0": {
       "name": "com.unity.modules.physicscore2d",
       "displayName": "Physics Core 2D",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.physicscore2d",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.physicscore2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -152,7 +152,7 @@
     "com.unity.modules.tetgen@1.0.0": {
       "name": "com.unity.modules.tetgen",
       "displayName": "Tetgen",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.tetgen",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.tetgen",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -160,7 +160,7 @@
     "com.unity.modules.timelinefoundation@1.0.0": {
       "name": "com.unity.modules.timelinefoundation",
       "displayName": "Timeline Foundation",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.timelinefoundation",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.timelinefoundation",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -168,7 +168,7 @@
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
       "displayName": "UI",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.ui",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.ui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -176,7 +176,7 @@
     "com.unity.modules.vectorgraphics@1.0.0": {
       "name": "com.unity.modules.vectorgraphics",
       "displayName": "Vector Graphics",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.vectorgraphics",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.vectorgraphics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -184,7 +184,7 @@
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
       "displayName": "UIElements",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.uielements",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.uielements",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -192,7 +192,7 @@
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.imageconversion",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.imageconversion",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -200,7 +200,7 @@
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
       "displayName": "IMGUI",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.imgui",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.imgui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -208,7 +208,7 @@
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
       "displayName": "JSONSerialize",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.jsonserialize",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.jsonserialize",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -216,7 +216,7 @@
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "displayName": "Subsystems",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.subsystems",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.subsystems",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -224,7 +224,7 @@
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
       "displayName": "Physics",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.physics",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.physics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -232,7 +232,7 @@
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
       "displayName": "Director",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.director",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.director",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -240,7 +240,7 @@
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
       "displayName": "Particle System",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.particlesystem",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.particlesystem",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -248,7 +248,7 @@
     "com.unity.ext.nunit@2.1.0": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.ext.nunit@0198eae3b53e",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.ext.nunit@0198eae3b53e",
       "fingerprint": "0198eae3b53e4b243332e89e4af7bd396715ad55",
       "version": "2.1.0",
       "source": "builtin",
@@ -257,7 +257,7 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "displayName": "Hierarchy Core",
-      "resolvedPath": "/Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.hierarchycore",
+      "resolvedPath": "/Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false

@@ -88,20 +88,33 @@ public class MonopolyGame : MonoBehaviour
 
         turnResolved = false;
         state.RollDice();
+        hud.SetButtons(false, false, false, string.Empty, false, false);
+        StartCoroutine(RollSequence());
+    }
+
+    /// <summary>Сначала кубики падают на доску, и только потом ход отыгрывается.</summary>
+    private IEnumerator RollSequence()
+    {
+        isMoving = true;
+        SetAction("Бросок…", Palette.Neutral, false);
+        RefreshAll();
+
+        yield return board.Dice.Throw(state.DieOne, state.DieTwo);
+
         log.Player(state.CurrentPlayer, "бросает кубики: " + state.DieOne + " + " + state.DieTwo +
                                         " = " + state.LastRolled + (state.IsDouble ? " (дубль)" : ""));
 
         if (state.InJail[state.CurrentPlayer] && !state.IsDouble)
         {
+            isMoving = false;
             SetAction("ТЮРЬМА: дубля нет — заплатите " + GameRules.JailFine + " ₽ или пропустите ход", Palette.Loss);
             hud.SetButtons(false, false, false, string.Empty, true,
                 state.Money[state.CurrentPlayer] >= GameRules.JailFine);
             RefreshAll();
-            return;
+            yield break;
         }
 
         state.InJail[state.CurrentPlayer] = false;
-        hud.SetButtons(false, false, false, string.Empty, false, false);
         MoveAfterRoll();
     }
 

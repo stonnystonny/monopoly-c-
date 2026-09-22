@@ -34,6 +34,15 @@ namespace Monopoly.Board
         /// <summary>Шаг сетки пола — по ширине рядовой клетки.</summary>
         public const float CellSize = Side * TileWidth;
 
+        /// <summary>Общий масштаб фишки: она должна быть заметно уже клетки.</summary>
+        public const float TokenScale = 0.62f;
+
+        /// <summary>Диаметр подставки фишки в мировых единицах.</summary>
+        public const float TokenWidth = 0.40f * TokenScale;
+
+        /// <summary>Доля середины доски, отведённая под лоток для кубиков у ближнего края.</summary>
+        public const float DiceTrayHeight = 0.24f;
+
         /// <summary>Сторона доски, на которой стоит клетка. Углы относятся к следующей стороне.</summary>
         public enum Edge
         {
@@ -123,14 +132,26 @@ namespace Monopoly.Board
             return new Vector3((center.x - 0.5f) * Side, TileSurface, (center.y - 0.5f) * Side);
         }
 
-        /// <summary>Точка, где стоит фишка игрока: центр клетки со смещением, чтобы фишки не слипались.</summary>
+        /// <summary>
+        /// Точка, где стоит фишка игрока. Смещение больше диаметра подставки,
+        /// поэтому две фишки на одной клетке стоят рядом и не пересекаются.
+        /// </summary>
         public static Vector3 TokenPosition(int square, int player)
         {
             Vector3 position = SurfacePosition(square);
-            float offset = CellSize * 0.22f;
+            float offset = TokenWidth * 0.8f;
             position.x += player == 0 ? -offset : offset;
-            position.z -= offset * 0.4f;
+            position.z -= TokenWidth * 0.25f;
             return position;
+        }
+
+        /// <summary>Точка покоя кубика на доске: полоса у ближнего к камере края середины.</summary>
+        public static Vector3 DiceRestPosition(int index)
+        {
+            float centerSpan = 1f - 2f * CornerSize;
+            float normalized = CornerSize + DiceTrayHeight * 0.5f * centerSpan;
+            float x = (index == 0 ? -1f : 1f) * Side * 0.055f;
+            return new Vector3(x, TileSurface, (normalized - 0.5f) * Side);
         }
 
         /// <summary>Размер клетки в пикселях канваса доски.</summary>

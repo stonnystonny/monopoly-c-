@@ -61,14 +61,35 @@ namespace Monopoly.Core
             return passedStart;
         }
 
+        /// <summary>
+        /// Аренда клетки. У вокзала она удваивается за каждый следующий вокзал владельца,
+        /// у улицы растёт от построек, а за собранную группу без домов платится вдвое.
+        /// </summary>
         public int RentFor(int square)
         {
-            return Mathf.RoundToInt(BoardData.Rents[square] * GameRules.RentMultiplier(Houses[square]));
+            int owner = Owners[square];
+            if (owner < 0) return BoardData.Rents[square];
+
+            if (BoardData.IsStation(square))
+                return GameRules.StationBaseRent * (1 << (StationsOwnedBy(owner) - 1));
+
+            float rent = BoardData.Rents[square] * GameRules.RentMultiplier(Houses[square]);
+            if (Houses[square] == 0 && OwnsWholeGroup(owner, square)) rent *= GameRules.MonopolyBonus;
+            return Mathf.RoundToInt(rent);
+        }
+
+        /// <summary>Сколько вокзалов у игрока — от этого зависит их аренда.</summary>
+        public int StationsOwnedBy(int player)
+        {
+            int count = 0;
+            for (int i = 0; i < GameRules.BoardSize; i++)
+                if (BoardData.IsStation(i) && Owners[i] == player) count++;
+            return count;
         }
 
         public int HouseCost(int square)
         {
-            return Mathf.RoundToInt(BoardData.Prices[square] * 0.25f / 10f) * 10;
+            return Mathf.RoundToInt(BoardData.Prices[square] * GameRules.HouseCostRate / 10f) * 10;
         }
 
         public bool OwnsWholeGroup(int player, int square)

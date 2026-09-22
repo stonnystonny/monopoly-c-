@@ -29,6 +29,7 @@ namespace Monopoly.Core
         public static readonly Color BoardBase = new Color(0.80f, 0.87f, 0.78f);
         public static readonly Color BoardCenter = new Color(0.78f, 0.86f, 0.76f);
         public static readonly Color TileFace = new Color(0.91f, 0.94f, 0.88f);
+        public static readonly Color DiceTray = new Color(0.70f, 0.79f, 0.69f);
         public static readonly Color TileEdge = new Color(0.20f, 0.24f, 0.22f);
         public static readonly Color TileText = new Color(0.11f, 0.14f, 0.16f);
 

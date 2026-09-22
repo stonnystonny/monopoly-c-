@@ -26,12 +26,19 @@ namespace Monopoly.Board
         /// <summary>Середина доски: сюда встраивается меню партии.</summary>
         public RectTransform MenuAnchor { get; private set; }
 
+        /// <summary>Кубики, лежащие на доске.</summary>
+        public DiceView Dice { get; private set; }
+
         public void Build(Camera boardCamera)
         {
             SceneEnvironment.Build(transform);
             BuildBase();
             BuildTiles(BuildBoardCanvas(boardCamera));
             BuildTokens();
+
+            Dice = new GameObject("Dice").AddComponent<DiceView>();
+            Dice.transform.SetParent(transform, false);
+            Dice.Build(Dice.transform);
         }
 
         // ---------------------------------------------------------------- плита доски
@@ -79,6 +86,11 @@ namespace Monopoly.Board
                 BoardLayout.CenterMin, BoardLayout.CenterMax);
             center.raycastTarget = false;
             MenuAnchor = center.rectTransform;
+
+            // Лоток у ближнего края середины: на него падают кубики.
+            var tray = UiFactory.Panel(center.transform, "DiceTray", Palette.DiceTray,
+                new Vector2(0.06f, 0.02f), new Vector2(0.94f, BoardLayout.DiceTrayHeight - 0.02f));
+            tray.raycastTarget = false;
 
             for (int square = 0; square < GameRules.BoardSize; square++) BuildTile(canvas, square);
         }
@@ -159,6 +171,7 @@ namespace Monopoly.Board
         {
             var root = new GameObject("Token" + (player + 1));
             root.transform.SetParent(transform, false);
+            root.transform.localScale = Vector3.one * BoardLayout.TokenScale;
             var material = SceneEnvironment.LitMaterial(Palette.PlayerTokens[player]);
 
             var foot = Primitives.Create(PrimitiveType.Cylinder, "Foot", root.transform, material);

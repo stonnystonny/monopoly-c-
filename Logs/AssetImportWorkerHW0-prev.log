@@ -7,9 +7,9 @@ Darwin version:          25.6.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-09-19T19:29:34Z
+Date:                    2026-09-22T16:16:32Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-base" at "2026-09-19T19:29:34.285Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-base" at "2026-09-22T16:16:32.479086Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/MacOS/Unity
@@ -23,9 +23,9 @@ AssetImportWorkerHW0
 -logFile
 Logs/AssetImportWorkerHW0.log
 -srvPort
-49176
+49775
 -parentPid
-956
+1945
 -analyticsCloudUserId
 anonymous
 -analyticsLocalProjectId
@@ -86,12 +86,14 @@ Successfully changed project path to: /Users/base/monopoly-c-
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [8389632384]  Target information:
+Player connection [8441323904]  Target information:
 
-Player connection [8389632384]  * "[IP] 192.168.31.225 [Port] 0 [Flags] 2 [Guid] 1534158780 [EditorId] 1534158780 [Version] 1048832 [Id] OSXEditor(0,Mac) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8441323904]  * "[IP] 192.168.3.55 [Port] 0 [Flags] 2 [Guid] 2276730590 [EditorId] 2276730590 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-Artur.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8389632384] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8389632384] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8441323904]  * "[IP] 172.19.0.1 [Port] 0 [Flags] 2 [Guid] 2276730590 [EditorId] 2276730590 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-Artur.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8441323904] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8441323904] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 4
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -134,22 +136,22 @@ Mono path[0] = '/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Res
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = '/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56975
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56971
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              5a0babdf9e204ac79d44aaf1254de97c
-  Correlation Id:          8d848cf7a5dbe5d55e820a7f08a4e3fc
-  External correlation Id: 5725844538510678109
+  Session Id:              ca0ef3220f8f494393e4c5554d67185d
+  Correlation Id:          b5bfe47be410aa5d0489336c8078ddea
+  External correlation Id: 5733080867227902452
   Machine Id:              sBJ4X7kN7pQP36tegMFRT7ImO9M=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-base" (connect: 0.00s, validation: 0.00s, handshake: 0.28s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-base-notifications" at "2026-09-19T19:29:34.569409Z"
-[Licensing::Module] Licensing Background thread has ended after 0.29s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-base" (connect: 0.00s, validation: 0.00s, handshake: 0.30s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-base-notifications" at "2026-09-22T16:16:32.782629Z"
+[Licensing::Module] Licensing Background thread has ended after 0.30s
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.6.1f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.6.1f1/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000308 seconds.
+Registered in 0.000499 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -158,21 +160,22 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.202 seconds
-Domain Reload Profiling: 421ms
-	BeginReloadAssembly (37ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (23ms)
+- Finished resetting the current domain, in  0.207 seconds
+Domain Reload Profiling: 435ms
+	BeginReloadAssembly (41ms)
+	RebuildCommonClasses (3ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
 	LoadAllAssembliesAndSetupDomain (148ms)
-		LoadAssemblies (37ms)
+		LoadAssemblies (41ms)
 		TypeCache.Refresh (106ms)
-			TypeCache.ScanAssembly (99ms)
-		AnalyzeDomain (0ms)
-	FinalizeReload (202ms)
+			TypeCache.ScanAssembly (98ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (207ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (41ms)
+			BeforeProcessingInitializeOnLoad (44ms)
 			ProcessInitializeOnLoadAttributes (38ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
 Initializing Unity extensions:
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -196,39 +199,39 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.217 seconds
-Domain Reload Profiling: 451ms
-	BeginReloadAssembly (79ms)
+- Finished resetting the current domain, in  0.229 seconds
+Domain Reload Profiling: 476ms
+	BeginReloadAssembly (77ms)
 		DisableScriptedObjects (3ms)
-		CreateAndSetChildDomain (15ms)
+		CreateAndSetChildDomain (12ms)
 	RebuildCommonClasses (4ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (15ms)
-	LoadAllAssembliesAndSetupDomain (127ms)
-		LoadAssemblies (71ms)
-		TypeCache.Refresh (36ms)
-			TypeCache.ScanAssembly (30ms)
-		AnalyzeDomain (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (80ms)
+		TypeCache.Refresh (39ms)
+			TypeCache.ScanAssembly (31ms)
+		AnalyzeDomain (8ms)
 			BuildScriptInfoCaches (6ms)
-	FinalizeReload (218ms)
+	FinalizeReload (229ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (43ms)
-			ProcessInitializeOnLoadAttributes (86ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (88ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
 AcceleratorClientConnectionCallback - disconnected - :0
 Launching external process: /Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Helpers/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2186 unused Assets / (0.9 MB). Loaded Objects now: 2881.
-Memory consumption went from 113.5 MB to 112.6 MB.
-Total: 2.936250 ms (FindLiveObjects: 0.142000 ms CreateObjectMapping: 0.028959 ms MarkObjects: 2.555917 ms  DeleteObjects: 0.162625 ms)
+Unloading 2186 unused Assets / (0.8 MB). Loaded Objects now: 2881.
+Memory consumption went from 113.5 MB to 112.7 MB.
+Total: 3.143250 ms (FindLiveObjects: 0.144916 ms CreateObjectMapping: 0.029459 ms MarkObjects: 2.730208 ms  DeleteObjects: 0.187959 ms)
 
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
 Begin MonoManager ReloadAssembly
-Thread 0x412087000 may have been prematurely finalized
+Thread 0x17f9ff000 may have been prematurely finalized
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -239,33 +242,33 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.208 seconds
-Domain Reload Profiling: 391ms
-	BeginReloadAssembly (73ms)
+- Finished resetting the current domain, in  0.213 seconds
+Domain Reload Profiling: 407ms
+	BeginReloadAssembly (75ms)
 		DisableScriptedObjects (3ms)
 		CreateAndSetChildDomain (12ms)
 	RebuildCommonClasses (4ms)
-	RebuildNativeTypeToScriptingClass (7ms)
+	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (14ms)
-	LoadAllAssembliesAndSetupDomain (85ms)
-		LoadAssemblies (65ms)
+	LoadAllAssembliesAndSetupDomain (93ms)
+		LoadAssemblies (73ms)
 		TypeCache.Refresh (3ms)
 		AnalyzeDomain (1ms)
-	FinalizeReload (208ms)
+	FinalizeReload (214ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (41ms)
-			ProcessInitializeOnLoadAttributes (82ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (83ms)
 			ProcessInitializeOnLoadMethodAttributes (12ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2184 unused Assets / (0.8 MB). Loaded Objects now: 2882.
+Unloading 2184 unused Assets / (0.7 MB). Loaded Objects now: 2882.
 Memory consumption went from 122.0 MB to 121.3 MB.
-Total: 2.916208 ms (FindLiveObjects: 0.126541 ms CreateObjectMapping: 0.028417 ms MarkObjects: 2.577083 ms  DeleteObjects: 0.135375 ms)
+Total: 2.950667 ms (FindLiveObjects: 0.127375 ms CreateObjectMapping: 0.032083 ms MarkObjects: 2.595333 ms  DeleteObjects: 0.145250 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Editor is closing down
 AcceleratorClientConnectionCallback - disconnected - :0
-Thread 0x17b2c7000 may have been prematurely finalized
+Thread 0x178c87000 may have been prematurely finalized
 AssetImportWorker is now disconnected from the server
 Process exiting
 [ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

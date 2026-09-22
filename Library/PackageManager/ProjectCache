@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /Users/base/monopoly-c-/Packages/manifest.json
+    m_FilePath: /Users/stonny/Desktop/monopoly/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639253690145515811
+      ticks: 639256955946055558
     m_Hash: 4150037538
   m_LockFileStatus:
-    m_FilePath: /Users/base/monopoly-c-/Packages/packages-lock.json
+    m_FilePath: /Users/stonny/Desktop/monopoly/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639253690163288939
+      ticks: 639256981045682157
     m_Hash: 352214670
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: /Users/base/monopoly-c-/Packages
+m_ProjectPath: /Users/stonny/Desktop/monopoly/Packages
 m_EditorVersion: 6000.6.1f1 (7efac9f6c10e)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.13.6
@@ -28,7 +28,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 2.13.6
   source: 1
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -225,7 +225,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 3.0.38
   source: 1
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.ide.rider@1f60b3138684
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.ide.rider@1f60b3138684
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -373,7 +373,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 2.0.26
   source: 1
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -503,7 +503,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.2.5
   source: 1
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.ide.vscode@82e68656b7bd
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.ide.vscode@82e68656b7bd
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -617,7 +617,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 2.0.1
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.multiplayer.center@549886182930
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.multiplayer.center@549886182930
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -727,7 +727,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.8.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.test-framework@7a3849e09bd0
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.test-framework@7a3849e09bd0
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -831,7 +831,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 6.6.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.timeline@c56d56b0070b
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.timeline@c56d56b0070b
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -942,7 +942,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 2.6.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.ugui@fa62679cc16a
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.ugui@fa62679cc16a
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: uGUI
@@ -1063,7 +1063,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.accessibility
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -1153,7 +1153,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.adaptiveperformance
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.adaptiveperformance
   assetPath: Packages/com.unity.modules.adaptiveperformance
   name: com.unity.modules.adaptiveperformance
   displayName: Adaptive Performance
@@ -1249,7 +1249,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.ai
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1339,7 +1339,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.androidjni
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1433,7 +1433,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.animation
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1523,7 +1523,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.audio
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1613,7 +1613,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.physics2d
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1707,7 +1707,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.physicscore2d
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.physicscore2d
   assetPath: Packages/com.unity.modules.physicscore2d
   name: com.unity.modules.physicscore2d
   displayName: Physics Core 2D
@@ -1797,7 +1797,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.tetgen
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.tetgen
   assetPath: Packages/com.unity.modules.tetgen
   name: com.unity.modules.tetgen
   displayName: Tetgen
@@ -1887,7 +1887,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.timelinefoundation
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.timelinefoundation
   assetPath: Packages/com.unity.modules.timelinefoundation
   name: com.unity.modules.timelinefoundation
   displayName: Timeline Foundation
@@ -1981,7 +1981,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.ui
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2071,7 +2071,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.vectorgraphics
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.vectorgraphics
   assetPath: Packages/com.unity.modules.vectorgraphics
   name: com.unity.modules.vectorgraphics
   displayName: Vector Graphics
@@ -2183,7 +2183,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.uielements
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2297,7 +2297,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.imageconversion
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2387,7 +2387,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.imgui
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2477,7 +2477,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.jsonserialize
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2567,7 +2567,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.subsystems
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -2661,7 +2661,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.physics
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2751,7 +2751,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.director
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2849,7 +2849,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.particlesystem
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2939,7 +2939,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 2.1.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.ext.nunit@0198eae3b53e
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.ext.nunit@0198eae3b53e
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3032,7 +3032,7 @@ m_ResolvedPackages:
   isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/base/monopoly-c-/Library/PackageCache/com.unity.modules.hierarchycore
+  resolvedPath: /Users/stonny/Desktop/monopoly/Library/PackageCache/com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
