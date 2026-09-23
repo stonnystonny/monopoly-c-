@@ -156,8 +156,12 @@ namespace Monopoly.Board
                 foreach (Vector2 spot in PipPattern(faceValues[face]))
                 {
                     var pip = Primitives.Create(PrimitiveType.Sphere, "Pip", die, material);
-                    pip.transform.localScale = Vector3.one * 0.15f;
-                    pip.transform.localPosition = normal * 0.48f + u * (spot.y * 0.24f) + v * (spot.x * 0.24f);
+
+                    Vector3 axis = new Vector3(Mathf.Abs(normal.x), Mathf.Abs(normal.y), Mathf.Abs(normal.z));
+                    pip.transform.localScale = Vector3.one * 0.15f - axis * 0.13f;
+                    pip.transform.localPosition = normal * 0.495f + u * (spot.y * 0.24f) + v * (spot.x * 0.24f);
+        
+            
                 }
             }
         }

@@ -51,6 +51,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "monopoly.slnx",
+    "dotnet.defaultSolution": "monopoly-c-.slnx",
     "git.ignoreLimitWarning": true
 }

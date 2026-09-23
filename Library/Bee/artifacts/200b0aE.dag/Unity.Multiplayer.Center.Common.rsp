@@ -151,11 +151,9 @@
 -r:"/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Runtime.CompilerServices.Unsafe.dll"
 -r:"/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Text.Encodings.Web.dll"
 -r:"/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/ref/System.Text.Json.dll"
--r:"/Applications/Unity/Hub/Editor/6000.6.1f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
--r:"/Applications/Unity/Hub/Editor/6000.6.1f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
--r:"/Applications/Unity/Hub/Editor/6000.6.1f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
 -r:"/Applications/Unity/Hub/Editor/6000.6.1f1/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
 -r:"/Applications/Unity/Hub/Editor/6000.6.1f1/PlaybackEngines/MacStandaloneSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"/Applications/Unity/Hub/Editor/6000.6.1f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEditor.Graphs.dll"
 -r:"/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/Unity.Scripting.dll"
 -r:"/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.AIModule.dll"
@@ -476,7 +474,7 @@
 /debug:portable
 /nologo
 /RuntimeMetadataVersion:v4.0.30319
--ruleset:"/Users/stonny/Desktop/monopoly/Library/ImmutablePackage.ruleset"
+-ruleset:"/Users/base/monopoly-c-/Library/ImmutablePackage.ruleset"
 /nowarn:0169
 /nowarn:0649
 /nowarn:0282
