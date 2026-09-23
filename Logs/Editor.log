@@ -1310,3 +1310,51 @@ Loaded scene 'Temp/__Backupscenes/0.backup'
 	Total Operation Time:   24.413 ms
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=1bf4e12530a8d4402b0bee6da1a055e4): Total: 0.031 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "ZJKLjzAb"... (expires: 2026-09-23T18:33:01Z)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=f8a79bcca61234f79b870836cb7eb5af): Total: 0.031 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=cf08a292a04c24093b653e3a391486c6): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=824622c3143984635a45a917b2c7ab44): Total: 0.022 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+MonoPathRemapper: Attempts to remap: 21185; Successful remaps: 6428
+Thread 0x41952f000 may have been prematurely finalized
+Serialized file version minimum: 22, current 23
+[LAYOUT] About to save layout /Users/base/monopoly-c-/UserSettings/Layouts/default-6000.dwlt
+[LAYOUT] About to save layout /Users/base/Library/Preferences/Unity/Editor-5.x/Layouts/current/default-6000.dwlt
+Thread 0x40095b000 may have been prematurely finalized
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+Завершается работа Сервер MSBuild...
+Завершается работа Сервер компилятора VB или C#...
+Работа Сервер компилятора VB или C# завершена.
+Thread 0x17896b000 may have been prematurely finalized
+Thread 0x178a83000 may have been prematurely finalized
+Thread 0x178853000 may have been prematurely finalized
+Thread 0x1789f7000 may have been prematurely finalized
+Thread 0x178cb3000 may have been prematurely finalized
+Thread 0x1788df000 may have been prematurely finalized
+Thread 0x178c27000 may have been prematurely finalized
+Thread 0x178b9b000 may have been prematurely finalized
+Thread 0x178b0f000 may have been prematurely finalized
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-base-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-base channel disconnected successfully.
+Работа Сервер MSBuild завершена.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 107
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1790183533202,"processId":2796,"allocatedMemory":8457930,"memoryLabels":[{"Default":196856},{"Permanent":15672},{"Thread":1056736},{"Manager":25590},{"VertexData":8},{"Geometry":408},{"Texture":24},{"Shader":844246},{"Material":68},{"GfxDevice":49080},{"GfxThread":5440},{"Animation":968},{"Audio":2176},{"FreeType":8},{"FontEngine":736},{"Physics":2002},{"Physics2D":16},{"Serialization":16464},{"Input":43216},{"JobScheduler":448},{"TextLib":20172},{"Mono":56},{"ScriptingNativeRuntime":155024},{"BaseObject":49672},{"Resource":1028},{"Renderer":2448},{"Transform":4693},{"File":25383},{"WebCam":32},{"Culling":32},{"Terrain":11346},{"Wind":24},{"String":682611},{"StaticString":3808},{"Utility":2692032},{"PoolAlloc":1960},{"AI":80},{"TypeTree":17293},{"ScriptManager":31600},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7240},{"Director":8288},{"CloudService":8160},{"WebRequest":5839},{"VR":49426},{"SceneManager":616},{"Video":2112},{"LazyScriptCache":32},{"Camera":218889},{"Secure":9865},{"SerializationCache":9704},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57504},{"StaticSafetyDebugInfo":278528},{"Baselib":16},{"Analytics":568},{"Hierarchy":1492},{"UIElements":40},{"CoreStats":14536},{"Identifiers":7152},{"Gui":280594},{"EditorUtility":118542},{"VersionControl":8},{"Undo":939},{"AssetDatabase":1340575},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":41650},{"Upm":1788},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"HubClient":848},{"LocalIPC":203},{"ProfilerEditor":9738},{"CoreBusinessMetrics":3205},{"Windowing":416},{"Licensing":992},{"AssetReference":32},{"IPCStream":7003}]}

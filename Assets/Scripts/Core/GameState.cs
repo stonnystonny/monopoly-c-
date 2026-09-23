@@ -12,7 +12,19 @@ namespace Monopoly.Core
         public readonly bool[] InJail = new bool[GameRules.PlayerCount];
         public readonly bool[] SkipNextTurn = new bool[GameRules.PlayerCount];
 
-        public int CurrentPlayer;
+        private int currentPlayer;
+
+        public int CurrentPlayer
+        {
+        get { return currentPlayer; }
+        set
+           {
+        currentPlayer = value;
+        HotelBuiltThisTurn = false; // новый ход: отель снова можно строить
+           }
+        }
+
+        public bool HotelBuiltThisTurn { get; private set; }
         public int DieOne;
         public int DieTwo;
         public int LastRolled;
@@ -113,9 +125,10 @@ namespace Monopoly.Core
         {
             int square = Positions[player];
             return Owners[square] == player
-                && Houses[square] < GameRules.HotelLevel
-                && OwnsWholeGroup(player, square)
-                && Money[player] >= HouseCost(square);
+               && Houses[square] < GameRules.HotelLevel
+               && !(Houses[square] == GameRules.HotelLevel - 1 && HotelBuiltThisTurn)
+               && OwnsWholeGroup(player, square)
+               && Money[player] >= HouseCost(square);
         }
 
         public void Buy(int player)
@@ -131,6 +144,7 @@ namespace Monopoly.Core
             int cost = HouseCost(square);
             Money[player] -= cost;
             Houses[square]++;
+            if (Houses[square] == GameRules.HotelLevel) HotelBuiltThisTurn = true;
             return cost;
         }
 
