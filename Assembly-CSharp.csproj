@@ -70,6 +70,9 @@
     <Compile Include="Assets/Scripts/UI/UiFactory.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets/3D Simple Building/Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.6.1f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.dll</HintPath>
       <Private>False</Private>
